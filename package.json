@@ -1,0 +1,33 @@
+{
+  "name": "template-nodeJS",
+  "version": "1.0.0",
+  "description": "O objetivo deste repositório é conter um template de API Restful, utilizando também arquitetura de microserviços, visando facilitar a inicialização de projetos NodeJS.",
+  "main": "app.js",
+  "scripts": {
+    "start": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hudjoubert/template-nodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hudjoubert/template-nodeJS/issues"
+  },
+  "homepage": "https://github.com/hudjoubert/template-nodeJS#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.3",
+    "multer": "^1.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "nodemon": "^1.18.11"
+  }
+}
